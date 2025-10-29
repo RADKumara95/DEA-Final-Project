@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FitTrack | Dashboard</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+<header>
+    <h1>🏋️‍♀️ FitTrack Dashboard</h1>
+    <nav>
+        <a href="/login.html">Login</a>
+        <a href="/signup.html">Sign Up</a>
+    </nav>
+</header>
+
+<main>
+    <section class="welcome">
+        <h2>Welcome to FitTrack</h2>
+        <p>Track your workouts, calories, and progress easily.</p>
+        <button onclick="showWorkouts()">View Workouts</button>
+    </section>
+
+    <section id="workouts" class="hidden">
+        <h3>Your Workouts</h3>
+        <ul id="workoutList"></ul>
+    </section>
+</main>
+
+<script src="/js/script.js"></script>
+</body>
+</html>
